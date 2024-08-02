@@ -17,7 +17,7 @@ app.use(bodyparser.urlencoded({extended: true}));
 
 const router = require('./router/router');
 
-app.use('api/v1/get',router);
+app.use('/',router);
 
 
 app.listen(port, ()=> console.log('server is running!'));
