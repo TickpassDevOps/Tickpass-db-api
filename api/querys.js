@@ -1,5 +1,5 @@
 
-const pool = require('./dbconection')
+import  {pool} = from "./dbconection"
 
 const peticiones = {
 
