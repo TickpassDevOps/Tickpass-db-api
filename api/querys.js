@@ -4,7 +4,7 @@ const pool = require('./dbconection')
 const peticiones = {
 
     get: async (err,data)=>{
-     const mysql = "SELECT * FROM productos";
+     const mysql = "SELECT * FROM eventos";
      await pool(mysql,(err,data)=>{
         if(err) console.log(err);
         return json(data);
