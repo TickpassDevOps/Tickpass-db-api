@@ -4,5 +4,5 @@ const router = express.Router()
 const peticiones = require('../querys');
 
 router.get("/", peticiones.get);
-router.post("ingresar",peticiones.post);
+router.post("/ingresar",peticiones.post);
 module.exports = router;
